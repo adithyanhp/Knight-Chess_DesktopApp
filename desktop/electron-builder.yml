@@ -35,14 +35,20 @@ nsis:
   createStartMenuShortcut: true
   shortcutName: Knight Chess
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 886b7b3 (electron-builder.yml : Fix Linux section)
 linux:
   target:
     - target: deb
       arch: [x64]
   category: Game
   icon: desktop/assets/knight.png
+  maintainer: "Knight Chess Developer developer@example.com"
   desktop:
     entry:
       Name: Knight Chess
       Comment: Personal chess game, puzzles and lessons
       Categories: Game;BoardGame;
+
