@@ -4,6 +4,12 @@ This is the complete updated source project: React frontend, Django API, Postgre
 
 **You do not need to change source code before hosting.** Enter your own service URLs and secrets in the hosting dashboards, following [Deployment_Guide.md](Deployment_Guide.md).
 
+## Download Knight Chess
+
+Download the latest Windows and Linux installers:
+
+[Download Knight Chess](https://github.com/adithyanhp/Knight-Chess_DesktopApp/releases/latest)
+
 ## Start here
 
 1. Extract this ZIP into a fresh folder. Open the inner **knight-chess** folder that contains **package.json**.
