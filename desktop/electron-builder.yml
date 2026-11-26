@@ -1,8 +1,11 @@
+
 appId: com.knight.personalchess
 productName: Knight Chess
 artifactName: "Knight-Chess-${version}-${os}-${arch}.${ext}"
+
 directories:
   output: desktop-release
+
 files:
   - dist/**/*
   - desktop/main.cjs
@@ -15,12 +18,15 @@ files:
   - '!node_modules/**/test/**'
   - '!node_modules/**/tests/**'
   - '!node_modules/**/*.map'
+
 asar: true
+
 win:
   target:
     - target: nsis
       arch: [x64]
   icon: desktop/assets/knight.ico
+
 nsis:
   oneClick: false
   perMachine: false
@@ -28,6 +34,7 @@ nsis:
   createDesktopShortcut: true
   createStartMenuShortcut: true
   shortcutName: Knight Chess
+
 linux:
   target:
     - target: deb
