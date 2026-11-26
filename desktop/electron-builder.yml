@@ -35,6 +35,7 @@ linux:
   category: Game
   icon: desktop/assets/knight.png
   desktop:
-    Name: Knight Chess
-    Comment: Personal chess game, puzzles and lessons
-    Categories: Game;BoardGame;
+    entry:
+      Name: Knight Chess
+      Comment: Personal chess game, puzzles and lessons
+      Categories: Game;BoardGame;
