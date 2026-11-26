@@ -1,0 +1,393 @@
+{
+  "app": "Knight",
+  "version": "1.1.0",
+  "builtAt": "2026-11-26T11:49:07.831Z",
+  "sourceSha256": "418584c9fb2889b459946a449f39f15fd688dbac5d2e1a60cb11e80a3a96c53f",
+  "files": [
+    {
+      "path": "knight-chess/.dockerignore",
+      "sha256": "48bb60aaf24339fc3670f5ac442d63af34996ce81d5bdb1f707d1db175523712",
+      "bytes": 181
+    },
+    {
+      "path": "knight-chess/.env.example",
+      "sha256": "1f6e11c481d90a033bc23ef08529f1b3b7e0256fd1e85a8f29588846971d625c",
+      "bytes": 839
+    },
+    {
+      "path": "knight-chess/.gitattributes",
+      "sha256": "39559668b0adc2b1a266226a3d6efc83e45c0f689fb2fca06dc922da1eb1c75e",
+      "bytes": 87
+    },
+    {
+      "path": "knight-chess/.gitignore",
+      "sha256": "f81eecf496e993ea802a492925410b8e519714d1e71883b4338228482775b8db",
+      "bytes": 205
+    },
+    {
+      "path": "knight-chess/Deployment_Checklist.md",
+      "sha256": "4d86da371facfd7ee2af3fa0a67c0323832f4aef0834b08e14ee78aa91027273",
+      "bytes": 4408
+    },
+    {
+      "path": "knight-chess/Deployment_Guide.md",
+      "sha256": "e0111109a1fa7f2ed148cbe55059b7f275faff56bda529c41699ee9f6245f623",
+      "bytes": 31323
+    },
+    {
+      "path": "knight-chess/Dockerfile.frontend",
+      "sha256": "44503b2aa8c9dca1f20ecb9ce309e6a1acce5a4b17e12937e8fb973481a8a908",
+      "bytes": 237
+    },
+    {
+      "path": "knight-chess/Local_Setup_Guide.md",
+      "sha256": "c9821e4342f85b697091446a72ef7ae519bcdd0d146b12d2ac5c8555b9802b48",
+      "bytes": 21843
+    },
+    {
+      "path": "knight-chess/README.md",
+      "sha256": "150149f1f70dcb92df63a57223fb68f6dfc692b27455b5bb8064ca7a7340d1f5",
+      "bytes": 10857
+    },
+    {
+      "path": "knight-chess/THIRD_PARTY_NOTICES.md",
+      "sha256": "6768e9ae33934c7523b780d3cd76fa420430920636a5c130c86cdf03b93daa35",
+      "bytes": 2441
+    },
+    {
+      "path": "knight-chess/VERIFICATION.md",
+      "sha256": "6f74ab28c19bee42a5e5c5b858927de556b9f57055c91202b96c1b422e809e6f",
+      "bytes": 3464
+    },
+    {
+      "path": "knight-chess/backend/Dockerfile",
+      "sha256": "d50dd31a0fb72173222a9219898e8acf44e580c1bd4a40b080ac7d7057f3c814",
+      "bytes": 440
+    },
+    {
+      "path": "knight-chess/backend/README.md",
+      "sha256": "650bbaf833b92b8dd81e45a96993259366803dee326ea79eefd2a6c34378deba",
+      "bytes": 14673
+    },
+    {
+      "path": "knight-chess/backend/chessapp/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "knight-chess/backend/chessapp/engine.py",
+      "sha256": "426eb412ec4b0e447591f30912bb6d3e96d6b2c6d9b3005445cf1c5bb61e0627",
+      "bytes": 7579
+    },
+    {
+      "path": "knight-chess/backend/chessapp/errors.py",
+      "sha256": "3146799094a78a3caaad253da1777463cb66e7204f09faeec77223469259bd60",
+      "bytes": 325
+    },
+    {
+      "path": "knight-chess/backend/chessapp/management/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "knight-chess/backend/chessapp/management/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "knight-chess/backend/chessapp/management/commands/wait_for_db.py",
+      "sha256": "b4551153483a9098d0b1eeb3cd98fcfdfc7d8cea4722970d4da3943052552b1c",
+      "bytes": 1555
+    },
+    {
+      "path": "knight-chess/backend/chessapp/migrations/0001_initial.py",
+      "sha256": "2f1f60cde8793709c5000518ccb5bc9d2deb3b4d0f6828258b5d1c2ae2472e0e",
+      "bytes": 4473
+    },
+    {
+      "path": "knight-chess/backend/chessapp/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "knight-chess/backend/chessapp/models.py",
+      "sha256": "32f663b09684fc4cb1170aba2625f809a87669a8a190e6c5da5eab5caef679a4",
+      "bytes": 2980
+    },
+    {
+      "path": "knight-chess/backend/chessapp/openings.py",
+      "sha256": "ffd1a1d1deec88928bcb7e985cede3124ce903bb4787dad9c4ed7c50deae22ba",
+      "bytes": 3859
+    },
+    {
+      "path": "knight-chess/backend/chessapp/puzzles.py",
+      "sha256": "0cef4aeb0e1dae56c70a29701c4b50d00fc897c7ef62d9a4a6194fecd78aaad1",
+      "bytes": 2000
+    },
+    {
+      "path": "knight-chess/backend/chessapp/serializers.py",
+      "sha256": "48aaa726d1437c518af85c5d64a92a6e7de4d462b0be260c1be942f4c8d2a5ee",
+      "bytes": 3463
+    },
+    {
+      "path": "knight-chess/backend/chessapp/services.py",
+      "sha256": "d1467f39f0360c9d2445aef32fdb2a3aae336dceef9209b065337f4b4a36d9bb",
+      "bytes": 5401
+    },
+    {
+      "path": "knight-chess/backend/chessapp/test_deployment.py",
+      "sha256": "641cc6147ef079cb9cbb6258dd43382f2f4a10d821e6b7ead37f628481537637",
+      "bytes": 9277
+    },
+    {
+      "path": "knight-chess/backend/chessapp/tests.py",
+      "sha256": "80d8529440289e4fe5af1f9d345de35ab7c115153f4a12cb9e2efb979a16866d",
+      "bytes": 13829
+    },
+    {
+      "path": "knight-chess/backend/chessapp/urls.py",
+      "sha256": "c10a7192196b0edb3393c3c866a1c4b44c29a0aa743d9a8c3070ba1e2ab84bcf",
+      "bytes": 847
+    },
+    {
+      "path": "knight-chess/backend/chessapp/views.py",
+      "sha256": "fcb45234ffbd93c3f592afe2ebbbd79e55718e28693bc7c7ee4701939d64429e",
+      "bytes": 14473
+    },
+    {
+      "path": "knight-chess/backend/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "knight-chess/backend/config/database.py",
+      "sha256": "0b019e9a30d18d554a1b114d4cf24e65d8fc88404eeca54f869d148dc0681d36",
+      "bytes": 5293
+    },
+    {
+      "path": "knight-chess/backend/config/settings.py",
+      "sha256": "42a4262a4878de1955c6a652f10710aad39ed32d54ef6529430b49c54ed544c3",
+      "bytes": 3099
+    },
+    {
+      "path": "knight-chess/backend/config/urls.py",
+      "sha256": "73a755541211034b74b2adb9c4aa0ed43c4e9cb160c0432d2c96e46f8596eb8b",
+      "bytes": 93
+    },
+    {
+      "path": "knight-chess/backend/config/wsgi.py",
+      "sha256": "c1ed832c2a0786feb5149ed553edb97a0dec3abf91f510bb5ebedf9214833c53",
+      "bytes": 164
+    },
+    {
+      "path": "knight-chess/backend/manage.py",
+      "sha256": "6c2cb33dc41f230c6b5719d6e0ba86060aaf7c410bb8d92f5bf9c8d720cc24f1",
+      "bytes": 247
+    },
+    {
+      "path": "knight-chess/backend/requirements.txt",
+      "sha256": "68fce075f05d39512bde01a6bda03dc54a63b17cf29f57b80b942f2b42b236ca",
+      "bytes": 130
+    },
+    {
+      "path": "knight-chess/backend/setup_local.py",
+      "sha256": "9833fbc7280c4d1c2591eddf6d69d2c9b9d25d0443e7bba7b33b47df718325f7",
+      "bytes": 787
+    },
+    {
+      "path": "knight-chess/backend/start.sh",
+      "sha256": "56f19f1cd0bc8fd47362fe064e5a5ed91eabe12efda853ffaf26823844696489",
+      "bytes": 388
+    },
+    {
+      "path": "knight-chess/docker-compose.yml",
+      "sha256": "4ef3e8415f238d840c0e0d259ec11b79b189c89a59addc3c07c90c21d9104d4a",
+      "bytes": 1571
+    },
+    {
+      "path": "knight-chess/frontend/src/App.jsx",
+      "sha256": "1b66cd64d06d4efcaf3cf0e7fb8252943cbf21379e0f0b40229acc5ffe92aac0",
+      "bytes": 21360
+    },
+    {
+      "path": "knight-chess/frontend/src/chess/bots.js",
+      "sha256": "c9371c7e9c8326052c5465d8deb9fc3260329e76799f2ca97e1961e4bd7bca9b",
+      "bytes": 3186
+    },
+    {
+      "path": "knight-chess/frontend/src/chess/client.js",
+      "sha256": "7a2bd580e20108e76d7b53952693f869e133a1824dfce483633572569e3e75d1",
+      "bytes": 1678
+    },
+    {
+      "path": "knight-chess/frontend/src/chess/engine.js",
+      "sha256": "bec111feddc7fd4f36f842ffe597a147c66d70bdb8b44d7104bb1b5ad3d54d49",
+      "bytes": 12464
+    },
+    {
+      "path": "knight-chess/frontend/src/chess/engine.test.js",
+      "sha256": "5d011e9daebd8751802cd8c9f7fc2628313b4c4bc719cfae389eb499a8e2ad9a",
+      "bytes": 3407
+    },
+    {
+      "path": "knight-chess/frontend/src/chess/engine.worker.js",
+      "sha256": "869c57a7f2825665d46fef9fa3f580dfb194e8d71ca82cb971c9c9f22e87be76",
+      "bytes": 696
+    },
+    {
+      "path": "knight-chess/frontend/src/components/ChessBoard.jsx",
+      "sha256": "1b874ee31231d23d2fecaf23caa55d2a6b75bdeecd4e9026b014c74f99573c10",
+      "bytes": 5259
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Coach.jsx",
+      "sha256": "c690cd173ad7c394ac7c0709c10bda4e7776c601d980e9279335540cf2937a50",
+      "bytes": 13571
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Learn.jsx",
+      "sha256": "efe7c9d67cc3c983e98805686e2fe52d20e89cfd15cc0138d29050870ffde638",
+      "bytes": 13801
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Piece.jsx",
+      "sha256": "6ff7a690b2bd912c150c014bfb3aa8ad878760e148657b0ed79e8c03fb8332bc",
+      "bytes": 6057
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Play.jsx",
+      "sha256": "e8795069fb9b5e548fb0c405979c8b9c9e331bcebcd0d789790d6d3f24ee6348",
+      "bytes": 49064
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Profile.jsx",
+      "sha256": "122e21166182daf48b4e586448351e69678d64918e2ea3dcb111e54b7d261058",
+      "bytes": 14857
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Puzzles.jsx",
+      "sha256": "3dfb61d9acca7b788df551d4783ef50d47cf25ddb739cc55848c442a90e9542a",
+      "bytes": 9497
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Review.jsx",
+      "sha256": "af2f3640140c4e2131f3763751c2d75e0565e1ad0712063746c8bad95736c60d",
+      "bytes": 16256
+    },
+    {
+      "path": "knight-chess/frontend/src/components/Settings.jsx",
+      "sha256": "809d13a6895d10000e9ece19b09d0307c13838b4d0361b2d2c78c5b67087f53a",
+      "bytes": 20968
+    },
+    {
+      "path": "knight-chess/frontend/src/components/learning.css",
+      "sha256": "7a0279e3c192ed7646da9d8c5163c1a5053d7044c11720147ab7057c6021916d",
+      "bytes": 43672
+    },
+    {
+      "path": "knight-chess/frontend/src/data/lessons.js",
+      "sha256": "68998b93e0cedd7df513ec64ae420693210c10d628abbd364e507b6396133c52",
+      "bytes": 41891
+    },
+    {
+      "path": "knight-chess/frontend/src/data/openings.js",
+      "sha256": "f5263624244d5e0163c8d3b4328cb17d98abb2ca5af4b12f07bde6a2fc81b7a7",
+      "bytes": 12363
+    },
+    {
+      "path": "knight-chess/frontend/src/data/puzzles.js",
+      "sha256": "90b08d7d9004f5ae41009cbce5e71f4a5790af0743f347acbe0929e9a0e5649c",
+      "bytes": 8192
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/api-client.js",
+      "sha256": "795ddbe76129c79c38e857d3ed415c876476994cd45a62feb9ff2b618dc2a2eb",
+      "bytes": 6830
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/api-client.test.js",
+      "sha256": "ef0d943164631d17147eb0ef1975cd1c41353f897bc88002d27bc28c8409bb78",
+      "bytes": 9287
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/api.js",
+      "sha256": "8a7a0464cbdcd9bd3288e63f5809868d7d554902b3f6225337b7ff3e9b43106b",
+      "bytes": 690
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/polling.js",
+      "sha256": "afa5286ec9913c3e5e26b9a606e008d86152aa19a2944cc70cf4b816d536e989",
+      "bytes": 1060
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/server.js",
+      "sha256": "8a6efef90310d20700d10d95fbe0f7a3c1165a8ade2c332a282d148c263f830e",
+      "bytes": 5923
+    },
+    {
+      "path": "knight-chess/frontend/src/lib/storage.js",
+      "sha256": "27d4c367452702fa3881a01a1ffe087ebf0ba8c5988550bfeeb81bc4d6cd89d7",
+      "bytes": 2525
+    },
+    {
+      "path": "knight-chess/frontend/src/main.jsx",
+      "sha256": "2b1ddfc72c68c81ca01cf40a8802689d3bbdf458ca76037971cf8197df628831",
+      "bytes": 187
+    },
+    {
+      "path": "knight-chess/frontend/src/styles.css",
+      "sha256": "a1b1051d5bcc39d16ee6f9f87023bba5a0d2964cca8e8c5736fd77d81d454c77",
+      "bytes": 67909
+    },
+    {
+      "path": "knight-chess/index.html",
+      "sha256": "e14a6ef388791920517589db52ea25a592d7a359ff3b662cc8dc5c8d4203aa2a",
+      "bytes": 513
+    },
+    {
+      "path": "knight-chess/nginx.conf",
+      "sha256": "f37ca6dc46a11d399b614b9fe6f2b476223be0d9367b0a477ad40481d58f5f33",
+      "bytes": 710
+    },
+    {
+      "path": "knight-chess/offline-plugin.js",
+      "sha256": "3c8f1c1a5b7bcac5835416aa76ad61747db5dcbbc28ed02aed9aba9d796bd878",
+      "bytes": 8237
+    },
+    {
+      "path": "knight-chess/package-lock.json",
+      "sha256": "2dcbab50140ebe76bca4078f4b6ca5a72382d1a873a9d1fd55fe93c0d81bc61d",
+      "bytes": 62424
+    },
+    {
+      "path": "knight-chess/package.json",
+      "sha256": "2f962a92d4505c9d39bf98791fb344a7d8b6881d645d6888e99538e5a0e36f7c",
+      "bytes": 775
+    },
+    {
+      "path": "knight-chess/public/favicon.svg",
+      "sha256": "48aedaac30a0513ffd3eba534dd972a6e9987ea2862c458240b55a20ed71c0c6",
+      "bytes": 274
+    },
+    {
+      "path": "knight-chess/render.yaml",
+      "sha256": "4f7e60ad56ab3beb4d0ce2d079bfb4ad62329bf18217e1ba7cea438470f551b2",
+      "bytes": 666
+    },
+    {
+      "path": "knight-chess/scripts/package-source.mjs",
+      "sha256": "e1a8b5851e729049222a8529539923d1536163b4d4e836d59b865fda4534ab7e",
+      "bytes": 4685
+    },
+    {
+      "path": "knight-chess/vercel.json",
+      "sha256": "65af4bb795b38085feff34b4b293271ae319e4ed5d7570ca0cce126fe2c7a957",
+      "bytes": 315
+    },
+    {
+      "path": "knight-chess/vite.config.js",
+      "sha256": "b1c57c5dc5e4e9f35800438cc10582d6fe8a987545bca89e7ae4e145358d3480",
+      "bytes": 359
+    }
+  ]
+}

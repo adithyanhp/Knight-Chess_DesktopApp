@@ -1,0 +1,24 @@
+# Optional Render Blueprint. The step-by-step guide uses New > Web Service.
+# This creates only the backend web service; PostgreSQL stays on Neon.
+services:
+  - type: web
+    name: knight-chess-api
+    runtime: docker
+    plan: free
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_DEBUG
+        value: "0"
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false
+      - key: STOCKFISH_PATH
+        value: /usr/games/stockfish
+      - key: SQLITE_TEST
+        value: "0"

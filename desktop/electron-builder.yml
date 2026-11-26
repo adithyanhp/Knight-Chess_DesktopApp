@@ -1,0 +1,40 @@
+appId: com.knight.personalchess
+productName: Knight Chess
+artifactName: "Knight-Chess-${version}-${os}-${arch}.${ext}"
+directories:
+  output: desktop-release
+files:
+  - dist/**/*
+  - desktop/main.cjs
+  - desktop/preload.cjs
+  - desktop/settings.html
+  - desktop/assets/**/*
+  - package.json
+  - '!backend/**'
+  - '!frontend/**'
+  - '!node_modules/**/test/**'
+  - '!node_modules/**/tests/**'
+  - '!node_modules/**/*.map'
+asar: true
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: desktop/assets/knight.ico
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Knight Chess
+linux:
+  target:
+    - target: deb
+      arch: [x64]
+  category: Game
+  icon: desktop/assets/knight.png
+  desktop:
+    Name: Knight Chess
+    Comment: Personal chess game, puzzles and lessons
+    Categories: Game;BoardGame;
